@@ -1,0 +1,136 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .section-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}
+@media(max-width: 768px){
+  .nav-item{
+      text-align: center !important;
+  }
+
+  .pricing, .happyclients, .contactus{
+      height: auto;
+      margin-top: 50px;
+  }
+  .card-second{
+     transform: translateY(0px); 
+     margin: 30px 0;
+  }
+
+  .contactus p{
+      padding: 0 50px;
+  }
+
+  .footer-div:nth-child(2){
+    text-align: left !important;
+  }
+
+  .footer-div{
+      margin: 30px;
+  }
+  .servicediv{
+      padding: 0 50px;
+  }
+  .counter{
+      display: inline !important; 
+  }
+  .box{
+      margin: 20px ;
+  }
+  .footersection{
+      padding: 70px 50px 20px 0;
+  }
+  .copyright{
+      margin-top: 1rem !important;
+  }
+  .header-extradiv{
+      margin:30px 0 0 0;
+  }
+  .extra-div{
+      padding: 20px 50px !important;
+  }
+  .header{
+clip-path: polygon(100% 0%, 100% 80%, 50% 100%, 0 80%, 0 0);
+height: 80vh;
+  }
+  .card-header{
+      font-size: 1rem;
+  }
+  .money{
+      font-size: 20px;
+  }
+  .card-body li{
+      margin: 0;
+  }
+  .card-footer a{
+      padding: 8px 24px;
+  }
+  .card-footer{
+      padding: 10px 0;
+  }
+  .center-div h1{
+      font-size: 2rem;
+  }
+  .center-div p{
+      font-size: 1rem;
+  }
+  .header-button a{
+      font-size: 1rem;
+      padding: 8px 24px
+  }
+  .center-div{
+      top:35% !important;
+  }
+  .header-section{
+      transform: translateY(10px) !important;
+  }
+}
