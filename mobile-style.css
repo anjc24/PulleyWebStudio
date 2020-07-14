@@ -2,6 +2,35 @@
   header .navbar-brand {
     padding-left: 1rem;
   }
+  header .row .col-md-7 {
+      margin:0rem 1rem;
+      padding-bottom: 02rem;
+  }
+  .header-button{
+    margin-top: 20px;
+  }
+
+  header .row .col-md-5 img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .uppersm{
+    margin-left: 0%;
+    text-align: center;
+    transform: translate(0,-20px);
+  }
+  header .container .col-md-7 {
+    text-align: center;
+  }
+  header .row .col-md-7 h1{
+    font-size: 1.1rem;
+  }
+  header .row .col-md-7 h6{
+    font-size: 0.9rem;
+  }
+  header .row .col-md-7 p{
+    font-size: 0.7rem;
+  }
   .section-1 .row .col-md-6 .panel {
     position: initial;
     width: initial;

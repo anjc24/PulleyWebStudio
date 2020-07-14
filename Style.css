@@ -2,7 +2,28 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00162a;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0f2033;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
 header,
 section {
   overflow-x: hidden;
@@ -14,15 +35,16 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, rgba(76,221,242,1)11.2%, rgba(92,121,255,1) 91.1%);
+  --bggradient: linear-gradient(to right, #00162a 11.2%, #0f2033 91.1%);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
 header a {
   font-family: var(--Sniglet-font);
-  font-size: 0.9em;
+  font-size: 1.2em;
   color: whitesmoke;
 }
+
 
 .dropdown-content {
   display: none;
@@ -65,26 +87,34 @@ header .nav-link:hover {
 }
 
 header .row .col-md-7 {
-  padding: 22vmin 1vmin;
+  padding: 22vmin 1vmin 22vmin 0;
   padding-bottom: 35vmin;
+  margin-left: -5rem;
+  margin-top: -2rem;
 }
 
 header .row .col-md-5 {
+  margin-right: -2rem;
   padding: 4.2vmin 1vmin;
 }
 
 header .row .col-md-5 img {
-  width: 90%;
+  margin-top: -3rem;
+  width: 40rem;
+  height: 40rem;
+  margin-left: 3rem;
 }
 
 header {
-  background: rgba(76,221,242,1);
+  background: #0f2033;
   /* fallback for old browsers */
   background: var(--bggradient);
+
 }
 
 header .container .col-md-7 {
   font-family: "Rubik", sans-serif;
+  text-align: left;
 }
 
 header .container .col-md-7 h6 {
@@ -93,35 +123,49 @@ header .container .col-md-7 h6 {
 }
 
 header .container .col-md-7 h1 {
-  font-size: 8.5vmin;
+  font-size: 5vmin;
   font-weight: bold;
   padding: 0.1em 0em;
 }
 
 header .container .col-md-7 p {
-  padding: 1vmin 5vmin;
+  padding: 0.3vmin ;
 }
 
 .header-button{
   margin-top: 80px;
 }
+header .nav-item:last-child {
+ padding-right: 0em;
+}
+header{
+  background-image: url("assets/bg_Mesa\ de\ trabajo\ 1.png");
 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .header-button a{
-  border: 1px solid  #fff;
+  border: 1px solid  #00162a;
   border-radius: 100px;
   margin: 0 5px;
   padding: 12px 35px;
   outline: none;
-  color: #fff;
-  font-size: 1.5rem;
+  color: #0f2033;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
   text-align: center;
+  background: #fff;
 }
 
 .header-button a:hover{
-color:rgba(92,121,255,1) ;
-background: #fff;
+color:#ffffff ;
+background: #035d84;
 text-decoration: none;
 box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -131,6 +175,18 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
   font-weight: bold;
 }
 
+.uppersm{
+  margin-left: 70%;
+  transform: translate(0,-120px);
+}
+.uppersm i{
+  margin: 0 1rem;
+  color: white;
+}
+
+.fatop i{
+  color: white;
+}
 /********** section 1 **************/
 
 .section-1 {
@@ -223,7 +279,7 @@ li{ list-style: none;}
 }
 
 i{
-    color: rgba(92,121,255,1) ;
+    color: #0f2033 ;
     
 }
 
@@ -234,7 +290,7 @@ i{
   /* background-image: url("../assets/technology-1283624_1920.jpg"); */
   background-size: 150%;
   position: relative;
-  background: linear-gradient(to bottom, rgba(76,221,242,1)11.2%, rgba(92,121,255,1) 91.1%); 
+  background: linear-gradient(to bottom, #0f2033 11.2%, #002d50 91.1%); 
 }
 
 .cover .overlay {
@@ -283,7 +339,7 @@ i{
 
 .numbers .rect h1 {
   font-size: 4rem;
-  color: rgba(92,121,255,1);
+  color: #0f2033;
 }
 
 .numbers .rect > p {
@@ -308,7 +364,7 @@ i{
  left: 0;
  right: 0;
  z-index: -1;
- background: linear-gradient(160deg,  rgba(92,121,255,1) 55%, #fff 0%);
+ background: linear-gradient(160deg, #002d53 55%, #fff 0%);
 }
 
 .money{
@@ -354,12 +410,12 @@ i{
 
 
 .card-footer a{
- border: 1px solid  rgba(92,121,255,1);
+ border: 1px solid  #035d84;
  border-radius: 100px;
  margin: 0 5px;
  padding: 12px 35px;
  outline: none;
- color:  rgba(92,121,255,1);
+ color:  #035d84;
  font-size: 1rem;
  font-weight: 400;
  line-height: 1.4;
@@ -369,7 +425,7 @@ i{
 .card:hover .card-footer a:hover{
 color:#fff;
 cursor: pointer;
-background:  rgba(92,121,255,1);
+background:  #0f2033;
 text-decoration: none;
 box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -381,7 +437,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 
 
 .card:hover .card-header, .card:hover .money{
- color:  rgba(92,121,255,1);
+ color:  #0f2033;
 }
 
 
@@ -410,13 +466,15 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
 .box:hover{
-  background: rgba(92,121,255,1);
+  background: #0f2033;
 }
 
 .box:hover p{
   color:white;
 }
-
+.box:hover h1{
+  color:grey;
+}
 .carousel-indicators{
   position: absolute;
   right: 0;
@@ -424,7 +482,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
 .carousel-indicators li{
-  background-color: rgba(92,121,255,1) !important;
+  background-color: #0f2033 !important;
 }
 
 .box a{
@@ -443,7 +501,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
   font-family: FontAwesome;
   width: 40px;
   height: 40px;
-  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, rgba(92,121,255,1) 100%);
+  background: linear-gradient(to right, #0f2033 0%, #0f2033 100%);
   color: white;
   position: absolute;
   top: 120%;
@@ -475,7 +533,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 .section-3 {
   height: 70vmin;
   margin-top: 15vmin;
-  background: var(--bggradient);
+  background: linear-gradient(to bottom, #0f2033 11.2%, #002d50 91.1%); 
 }
 
 .section-3 .col-md-12 > h1 {
@@ -512,7 +570,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 .section-4 .container h1 {
   font-size: 6vmin;
   padding-top: 14vmin;
-  color:rgba(92,121,255,1) !important;
+  color:#0f2033 !important;
 }
 
 .section-4 .container{
@@ -529,11 +587,15 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
 .section-4 .card:hover{
-  background: rgba(92,121,255,1);
+  background: #0f2033;
+  color: white;
+}
+.section-4 .card:hover p{
+
   color: white;
 }
 .section-4 a{
-  color: black;
+  color: grey;
 }
 .section-4 .text-black-50 {
   color: grey;
@@ -564,7 +626,7 @@ footer {
 }
 
 footer p > span {
-  color: rgba(76,221,242,1);
+  color:white;
 }
 
 footer input {
@@ -581,7 +643,7 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-  color: rgba(92,121,255,1) ;
+  color: white;
 }
 
 /* It is Adjacent sibling combinator */
@@ -600,7 +662,10 @@ footer .column i + i {
 }
 
 
-
+.fa-arrow-right:before {
+  content: "\f061";
+  color: white;
+}
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -610,7 +675,7 @@ footer .column i + i {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgba(92,121,255,1); /* Set a background color */
+  background-color:#0f2033; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 8px; /* Some padding */
