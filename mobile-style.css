@@ -162,6 +162,11 @@ height: 80vh;
   .header-section{
       transform: translateY(10px) !important;
   }
+  .happyclients, .contactus {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+}
 
   .tbox{
   width: 80%;

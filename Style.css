@@ -576,6 +576,12 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 .review{
   margin-bottom: 5rem !important;
 }
+.reviewh{
+  margin-bottom: 1rem !important;
+}
+.team{
+  padding-top: 0 !important;
+}
 .section-4 .container{
   margin-bottom: -5rem;
 }
@@ -704,7 +710,7 @@ footer .column i + i {
 
 /********************team bg************************/
 
-.team{
+.teamb{
   background-image: url("assets/teambg.jpg");
 
   /* Full height */
