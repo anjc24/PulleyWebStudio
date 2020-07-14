@@ -162,4 +162,70 @@ height: 80vh;
   .header-section{
       transform: translateY(10px) !important;
   }
+
+  .tbox{
+  width: 80%;
+  height:600px;
+  display: inline-block;
+  margin: 50px 10%;
+  box-shadow: 0 27px 87px rgba(0,0,0,0.37);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.tbox-img{
+  float: left;
+  width: 100%;
+}
+
+.tbox-img img{
+  width: 100%;
+}
+.theader{
+  padding:2.5rem;
+}
+
+.tbox-text {
+  text-align: center;
+  width: 100%;
+  float: left;
+  color: #002d53;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.tbox-text h1{
+  font-size: 2rem;
+  
+}
+.tbox{
+  height: 750px;
+}
+.tbox-text p{
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.tbox-text .tsocial a {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to left, #0f2033, #035d84);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 15 0 0px;
+  transition: all ease 1s;
+  margin: 0 0.7rem;
+}
+.tbox-text .tsocial i {
+  transform: translate(0, -10px);
+}
+.tsocial{
+  margin-top: 2rem;
+}
+
+.tcount {
+  margin: 8rem 1rem 7rem 1rem;
+}
 }
