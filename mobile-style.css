@@ -235,3 +235,28 @@ height: 80vh;
   margin: 8rem 1rem 7rem 1rem;
 }
 }
+
+.visit{
+  margin-top: 0;
+}
+
+.visit a{
+  padding: 8px 20px;
+}
+
+.cheader h1{
+  font-size: 2rem;
+}
+
+.cheader p{
+  font-size: 0.8rem;
+  margin: 0 2rem;
+}
+.cheader {
+  margin-top: 8rem;
+}
+
+.headskill h1 {
+  font-size: 1.4rem !important;
+  margin: 1rem;
+}

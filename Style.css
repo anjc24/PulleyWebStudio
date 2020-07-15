@@ -903,3 +903,129 @@ color: white;
    font-size: 2rem;
    text-align: center;
 }
+
+
+
+
+
+/***********************contact us************************/
+
+.teamc{
+  background-image: url("assets/contactbg.jpg");
+
+  /* Full height */
+  height: 110vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cheader{
+  margin-top: 10rem;
+}
+
+.visit{
+  margin-top:2rem !important;
+}
+
+.speakero{
+ background: #002d53;
+  padding: 4rem 0 6rem 0;
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+
+
+.speakersdiv{
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.speakersdiv .cards{
+  max-width: 300px;
+  height: 215px;
+  background: #fff;
+  margin: 30px 50px;
+  padding:20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.speakersdiv .cards:hover{
+  height:480px;
+}
+
+.speakersdiv .cards .imgBx{
+  position: relative;
+  top: -40px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.speakersdiv .cards .imgBx img{
+    max-width: 100%;
+   border-radius: 4px;
+}
+
+.speakersdiv .cards .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  padding-top: 2rem;
+}
+
+.speakersdiv .cards:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay:0.3s ;
+}
+
+.ccards h4{
+  font-size: 1.2rem;
+  color:#002d53;
+}
+
+.ccards h6{
+  font-size: 0.9rem;
+  color:grey;
+}
+
+.events-titlem{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #002d53;
+  margin:4rem 0;
+}
+
+.cheader h1{
+  margin: 1.5rem 0;
+}
